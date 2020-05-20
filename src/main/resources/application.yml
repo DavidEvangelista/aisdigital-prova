@@ -1,0 +1,13 @@
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+
+security:
+  api_key: 7d3757c92aadef5ff6dee05df086824e
+default:
+  language: pt-br
+
