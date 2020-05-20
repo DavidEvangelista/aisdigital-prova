@@ -32,6 +32,12 @@ class MovieClientTests {
     }
 
     @Test
+    void getAllNowPlayingByRegionTest() {
+        List<MovieDTO> result = service.getNowPlaying("NZ");
+        Assert.assertNotNull(result);
+    }
+
+    @Test
     void getLatestTest() {
         MovieDTO result = service.getLatest();
         Assert.assertNotNull(result);
